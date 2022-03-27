@@ -944,7 +944,7 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =`H E L G A 右`
+menu =`𝒀𝑨𝑵𝒁 右`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'📑SHOW MENU'},type:1},
 {buttonId:`owner`,buttonText:{displayText:'👑OWNER'},type:1},
@@ -992,7 +992,7 @@ TIME-INFO
 - Wit : ${timeWit}  
 - Hari : ${week} ${weton}
 - Tanggal : ${calender}`
-sendButLocation(from, `${menu}`, "H E L G A 右", {jpegThumbnail:gambar,name:""}, [
+sendButLocation(from, `${menu}`, "𝒀𝑨𝑵𝒁 右", {jpegThumbnail:gambar,name:""}, [
 {buttonId:`allmenu`,buttonText:{displayText:'📑SHOW MENU'},type:1},
 {buttonId:`owner`,buttonText:{displayText:'👑OWNER'},type:1},
 {buttonId:`script`,buttonText:{displayText:'🔖SCRIPT'},type:1}
@@ -1236,13 +1236,13 @@ menu =`╭─❒ 「 INFO 」 ❒──❒
 ├ ${prefix}tospam [ _reply audio/sticker/image|jumlah_ ]
 ├ ${prefix}sharelock [ _teks1|teks2_ ]
 └─────────────────❒`
-sendButLocation(from, `${menu}`, "H E L G A 右", {jpegThumbnail:gambar,name:""}, [{buttonId:`owner`,buttonText:{displayText:'👑OWNER'},type:1},{buttonId:`script`,buttonText:{displayText:'📒SCRIPT'},type:1}], {contextInfo: { mentionedJid: [otod]}})
+sendButLocation(from, `${menu}`, "𝒀𝑨𝑵𝒁 右", {jpegThumbnail:gambar,name:""}, [{buttonId:`owner`,buttonText:{displayText:'👑OWNER'},type:1},{buttonId:`script`,buttonText:{displayText:'📒SCRIPT'},type:1}], {contextInfo: { mentionedJid: [otod]}})
 break
 case 'command':
  stod = `${sender}`
  listMsg = {
  buttonText: 'LIST MENU',
- footerText: '*_© H E L G A_*',
+ footerText: '*_© 𝒀𝑨𝑵𝒁_*',
  description: `Hai kak @${stod.split('@')[0]}, Silahkan pilih menu disini`,
  sections: [
                      {
@@ -1696,7 +1696,7 @@ break
 case 'jadibot':
 if (from.endsWith('@g.us')) return reply2('Tidak bisa menjadi bot di grup')
 client.version = [2, 2119, 6]
-client.browserDescription = ['H E L G A','Desktop','3.0']
+client.browserDescription = ['𝒀𝑨𝑵𝒁','Desktop','3.0']
 if (args[0] && args[0].length > 200) {
 	let json = Buffer.from(args[0], 'base64').toString('utf-8')
     let obj = JSON.parse(json)
@@ -1825,12 +1825,12 @@ break
   │◦➛Script Ory :
   │◦➛https://github.com/HelgaIlham
   │◦➛Script Recode : 
-  │◦➛https://github.com/HelgaIlham
+  │◦➛https://github.com/YANZGANZ
   └──────────────────❒`
 const buttons = [{buttonId: `menu`, buttonText: {displayText: 'BACK➡️'}, type: 1},{buttonId: `owner`, buttonText: {displayText: 'OWNER👤'}, type: 1}]
 const buttonMessage = {
     contentText: `${anu}`,
-    footerText: '*_©H E L G A_*',
+    footerText: '*_©𝒀𝑨𝑵𝒁_*',
     buttons: buttons,
     headerType: 1
 }
